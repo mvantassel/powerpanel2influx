@@ -18,7 +18,7 @@ INFLUX_USER | InfluxDB username | | | optional
 INFLUX_PASS | InfluxDB password | metrics | | optional
 POWERPANEL_HOST | Where is PowerPanel running? | localhost | powerpanel | optional
 POWERPANEL_PORT | What port is Power Panel running on? | 3052 | 999 | optional
-UPDATE_INTERVAL_MS | How often should it check for new metrics? | 600000 | 1000 | optional
+UPDATE_INTERVAL_MS | How often should it check for new metrics? | 30000 | 1000 | optional
 
 ## Tags
 
