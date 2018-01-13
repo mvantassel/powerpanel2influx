@@ -3,7 +3,7 @@
 const Influx = require('influx');
 const request = require('request-promise');
 
-const checkInterval = process.env.UPDATE_INTERVAL_MS || 1000 * 60 * 60 * 12;
+const checkInterval = process.env.UPDATE_INTERVAL_MS || 1000 * 30;
 
 const influxClient = new Influx.InfluxDB({
     host: process.env.INFLUX_HOST || 'localhost',
